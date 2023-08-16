@@ -1,8 +1,5 @@
-"use client";
-
 import { BlockType } from "@/types/main";
 import { Story } from "@/components/Blocks";
-import { Prose } from "@/components/Ui";
 
 interface BlockRendererProps {
   block: BlockType;

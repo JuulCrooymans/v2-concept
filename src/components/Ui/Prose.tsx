@@ -13,7 +13,7 @@ function Prose() {
 Prose.h1 = function H1({
   children,
   className,
-  defaulStyles = false,
+  defaulStyles = true,
 }: ProseProps) {
   if (defaulStyles) {
     return (
